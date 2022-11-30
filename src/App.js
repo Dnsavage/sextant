@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import '../../pylon/server.js';
 
 function App() {
   const [isIpv4, setIsIPv4] = useState(false);
